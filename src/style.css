@@ -151,3 +151,59 @@ transition: all .3s;
     color: #00094d;
     display: inline-block;
   }
+
+  .red-list {
+    border: 2px solid #e71d36;
+}
+.about-us, .blue-container, .cm_patti_l, .conta, .disclamer, .faq, .ftr_sm, .matka-result, .mrque-div, .paid-gm, .pby_us, .purpel_header, .red_list>div, .satta-main-result, .satta-text, .slash-text {
+  color: #000;
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: -2px;
+  display: block;
+  font-size: 20px;
+  outline: 4px #fff;
+  outline-offset: -9px;
+  border: 2px solid #5c3411;
+  border-style: outset;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 40%);
+}
+.red-list h4 {
+  animation: changeBackgroundColor 5s infinite;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.1;
+  padding: 4px 10px 3px;
+  text-shadow: 1px 1px 2px #000;
+  font-size: 24px;
+}
+@keyframes changeBackgroundColor {
+  0% {
+    background-color: #ff019e;
+    }
+    25% {
+        background-color: #FFFF00;
+    }
+    50% {
+        background-color: #009a07;
+    }
+    75% {
+        background-color: #001fad;
+    }
+    100% {
+        background-color: #ff019e;
+    }
+
+
+}
+.red-list p{
+  color: #001fad;
+}
+.ab1 div{
+  border-bottom: 2px solid black;
+}
+.ab1 a{
+  text-decoration: none;
+  color: #001fad;
+}
